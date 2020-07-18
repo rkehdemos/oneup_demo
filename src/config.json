@@ -1,0 +1,11 @@
+{
+	"urls": {
+		"refresh_url": "https://api.1up.health/fhir/oauth2/token",
+		"patient_url": "https://api.1up.health/fhir/dstu2/Patient"
+	},
+	"tokens": {
+		"refresh_token": "69e18f008bf0443bb84779c0c5027251",
+		"authorization_token": "c2d9850b4f84dd487a601277f5436ee",
+		"expiration": "1594949254859"
+	}
+}

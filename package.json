@@ -1,0 +1,44 @@
+{
+  "name": "oneuphealth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ryan Kehoe",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "evergreen-ui": "^4.28.1",
+    "helmet": "^3.23.3",
+    "node-fetch": "^2.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-json-pretty": "^2.2.0",
+    "wretch": "^1.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "npm-run-all": "^4.1.5",
+    "react-scripts": "^3.4.1"
+  },
+  "scripts": {
+    "server": "node ./server.js",
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "begin": "run-p server start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

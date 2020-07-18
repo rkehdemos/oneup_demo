@@ -1,0 +1,5 @@
+{
+	"urls": {
+		"patient_url": "https://api.1up.health/fhir/dstu2/Patient"
+	}
+}
